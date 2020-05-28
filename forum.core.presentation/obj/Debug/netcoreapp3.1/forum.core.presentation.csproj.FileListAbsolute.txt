@@ -1,0 +1,10 @@
+C:\workroot\forum_core\forum.core.presentation\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\workroot\forum_core\forum.core.presentation\bin\Debug\netcoreapp3.1\appsettings.json
+C:\workroot\forum_core\forum.core.presentation\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\workroot\forum_core\forum.core.presentation\obj\Debug\netcoreapp3.1\forum.core.presentation.csprojAssemblyReference.cache
+C:\workroot\forum_core\forum.core.presentation\obj\Debug\netcoreapp3.1\forum.core.presentation.AssemblyInfoInputs.cache
+C:\workroot\forum_core\forum.core.presentation\obj\Debug\netcoreapp3.1\forum.core.presentation.AssemblyInfo.cs
+C:\workroot\forum_core\forum.core.presentation\obj\Debug\netcoreapp3.1\forum.core.presentation.RazorTargetAssemblyInfo.cache
+C:\workroot\forum_core\forum.core.presentation\obj\Debug\netcoreapp3.1\staticwebassets\forum.core.presentation.StaticWebAssets.Manifest.cache
+C:\workroot\forum_core\forum.core.presentation\obj\Debug\netcoreapp3.1\staticwebassets\forum.core.presentation.StaticWebAssets.xml
+C:\workroot\forum_core\forum.core.presentation\bin\Debug\netcoreapp3.1\forum.core.presentation.exe
