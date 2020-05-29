@@ -1,9 +1,0 @@
-C:\workroot\forum_core\forum_core\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\workroot\forum_core\forum_core\bin\Debug\netcoreapp3.1\appsettings.json
-C:\workroot\forum_core\forum_core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\workroot\forum_core\forum_core\obj\Debug\netcoreapp3.1\forum_core.csprojAssemblyReference.cache
-C:\workroot\forum_core\forum_core\obj\Debug\netcoreapp3.1\forum_core.AssemblyInfoInputs.cache
-C:\workroot\forum_core\forum_core\obj\Debug\netcoreapp3.1\forum_core.AssemblyInfo.cs
-C:\workroot\forum_core\forum_core\obj\Debug\netcoreapp3.1\forum_core.RazorTargetAssemblyInfo.cache
-C:\workroot\forum_core\forum_core\obj\Debug\netcoreapp3.1\staticwebassets\forum_core.StaticWebAssets.Manifest.cache
-C:\workroot\forum_core\forum_core\obj\Debug\netcoreapp3.1\staticwebassets\forum_core.StaticWebAssets.xml
