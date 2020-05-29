@@ -5,13 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\Contract\" />
-    <Folder Include="Repository\Impl\" />
-    <Folder Include="Service\Contract\" />
-    <Folder Include="Service\Impl\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
   </ItemGroup>
 
