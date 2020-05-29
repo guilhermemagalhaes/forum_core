@@ -4,6 +4,9 @@ C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.csprojAssem
 C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.AssemblyInfoInputs.cache
 C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.AssemblyInfo.cs
 C:\workroot\forum_core\forum.core\bin\Debug\netcoreapp3.1\forum.core.pdb
-C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.csproj.CoreCompileInputs.cache
 C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.dll
 C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.pdb
+C:\workroot\forum_core\forum.core\bin\Debug\netcoreapp3.1\forum.core.runtimeconfig.json
+C:\workroot\forum_core\forum.core\bin\Debug\netcoreapp3.1\forum.core.runtimeconfig.dev.json
+C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.genruntimeconfig.cache
+C:\workroot\forum_core\forum.core\obj\Debug\netcoreapp3.1\forum.core.csproj.CoreCompileInputs.cache
