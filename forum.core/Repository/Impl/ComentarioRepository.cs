@@ -2,25 +2,37 @@
 using forum.core.Repository.Contract;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace forum.core.Repository.Impl
 {
     public class ComentarioRepository : IComentarioRepository
     {
+
+        private readonly ForumContext _forumContext;
+
+        public ComentarioRepository(ForumContext context)
+        {
+            _forumContext = context;
+        }
+
         public void AddOrUpdate(Comentario comentario)
         {
-            throw new NotImplementedException();
+            _forumContext.Add(comentario);
+            _forumContext.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var ret = _forumContext.Comentario.Find(id);
+            _forumContext.Remove(ret);
+            _forumContext.SaveChanges();
         }
 
         public IList<Comentario> Get(int idPost)
         {
-            throw new NotImplementedException();
+            return _forumContext.Comentario.Where(x => x.PostId == idPost).ToList();
         }
     }
 }
