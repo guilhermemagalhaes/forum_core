@@ -1,5 +1,6 @@
 ﻿using forum.core.Models;
 using forum.core.Repository.Contract;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,17 @@ namespace forum.core.Repository.Impl
 
         public IList<Comentario> Get(int idPost)
         {
-            return _forumContext.Comentario.Where(x => x.PostId == idPost).ToList();
+            return _forumContext.Comentario
+                .Where(x => x.PostId == idPost)
+                .Select(x => new Comentario()
+                {
+                    ComentarioId = x.ComentarioId,
+                    Autor = x.Autor,
+                    DataCadastro = x.DataCadastro,
+                    Texto = x.Texto,
+                    Post = x.Post
+                })
+                .ToList();
         }
     }
 }
