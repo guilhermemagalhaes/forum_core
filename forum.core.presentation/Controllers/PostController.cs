@@ -22,9 +22,9 @@ namespace forum.core.presentation.Controllers
         }
 
         [HttpDelete]
-        public void Delete(Post post)
+        public void Delete(int postId)
         {
-            postService.Delete(post);
+            postService.Delete(postId);
         }
 
         [HttpGet]
