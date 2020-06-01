@@ -38,6 +38,8 @@ namespace forum.core.presentation
 
             services.AddTransient<IComentarioRepository, ComentarioRepository>();
             services.AddTransient<IComentarioService, ComentarioService>();
+            services.AddTransient<IPostRepository, PostRepository>();
+            services.AddTransient<IPostService, PostService>();
 
         }
 

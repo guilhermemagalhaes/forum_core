@@ -16,8 +16,9 @@ namespace forum.core.Repository.Impl
             _forumContext = forumContext;
         }
 
-        public void Delete(Post post)
+        public void Delete(int postId)
         {
+            var post = _forumContext.Posts.Find(postId);
             _forumContext.Posts.Remove(post);
             _forumContext.SaveChanges();
         }

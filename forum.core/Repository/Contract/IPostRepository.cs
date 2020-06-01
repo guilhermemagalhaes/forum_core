@@ -9,7 +9,7 @@ namespace forum.core.Repository.Contract
     {
         int InsertOrUpdate(Post post);
 
-        void Delete(Post post);
+        void Delete(int postId);
 
         Post GetById(int postId);
 

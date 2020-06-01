@@ -16,9 +16,9 @@ namespace forum.core.Service.Impl
             _postRepository = postRepository;
         }
 
-        public void Delete(Post post)
+        public void Delete(int postId)
         {
-            _postRepository.Delete(post);
+            _postRepository.Delete(postId);
         }
 
         public IList<Post> GetAll()
