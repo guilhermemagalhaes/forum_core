@@ -27,9 +27,9 @@ namespace forum.core.Service.Impl
             _comentarioRepository.Delete(id);
         }
 
-        public IList<Comentario> Get(int idPost)
+        public IList<Comentario> Get(int postId)
         {
-            return _comentarioRepository.Get(idPost);
+            return _comentarioRepository.Get(postId);
         }
     }
 }

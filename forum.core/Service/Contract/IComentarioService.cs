@@ -11,6 +11,6 @@ namespace forum.core.Service.Contract
 
         void Delete(int id);
 
-        IList<Comentario> Get(int idPost);
+        IList<Comentario> Get(int postId);
     }
 }

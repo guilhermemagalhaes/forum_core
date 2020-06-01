@@ -20,10 +20,10 @@ namespace forum.core.presentation.Controllers
             _comentarioService = comentarioService;
         }
 
-        [HttpGet]
-        public IList<Comentario> Get(int idPost)
+        [HttpGet("{postId}")]
+        public IList<Comentario> GetAll(int postId)
         {
-            return _comentarioService.Get(idPost);
+            return _comentarioService.Get(postId);
         }
 
         [HttpPost]

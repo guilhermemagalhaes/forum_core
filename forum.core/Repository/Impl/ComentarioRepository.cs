@@ -44,10 +44,10 @@ namespace forum.core.Repository.Impl
             _forumContext.SaveChanges();
         }
 
-        public IList<Comentario> Get(int idPost)
+        public IList<Comentario> Get(int postId)
         {
             return _forumContext.Comentario
-                .Where(x => x.PostId == idPost)
+                .Where(x => x.PostId == postId)
                 .Select(x => new Comentario()
                 {
                     ComentarioId = x.ComentarioId,
