@@ -13,30 +13,35 @@ namespace forum.core.presentation.Controllers
     [ApiController]
     public class PostController : ControllerBase
     {
-        private readonly IPostService postService;
+        private readonly IPostService _postService;
+
+        public PostController(IPostService postService)
+        {
+            _postService = postService;
+        }
 
         [HttpPost]
         public int InsertOrUpdate(Post post)
         {
-            return postService.InsertOrUpdate(post);
+            return _postService.InsertOrUpdate(post);
         }
 
         [HttpDelete]
         public void Delete(int postId)
         {
-            postService.Delete(postId);
+            _postService.Delete(postId);
         }
 
-        [HttpGet]
+        [HttpGet("postId")]
         public Post GetById(int postId)
         {
-            return postService.GetById(postId);
+            return _postService.GetById(postId);
         }
 
         [HttpGet]
         public IList<Post> GetAll()
         {
-            return postService.GetAll();
+            return _postService.GetAll();
         }
     }
 }
