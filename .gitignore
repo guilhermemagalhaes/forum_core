@@ -1,0 +1,8 @@
+
+/.vs/**
+bin/
+obj/
+forum.core/bin/
+forum.core/obj/
+forum.core.presentation/bin/
+forum.core.presentation/obj/
