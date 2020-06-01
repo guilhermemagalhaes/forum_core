@@ -42,7 +42,7 @@ namespace forum.core.Repository.Impl
 
             po.Assunto = post.Assunto;
             po.Autor = post.Autor;
-            //po.Comentarios = post.Comentarios;
+            po.Comentarios = post.Comentarios;
             po.DataAtualizacao = post.DataAtualizacao;
             po.DataCadastro = post.DataCadastro;
             po.FlaAtivo = post.FlaAtivo;
