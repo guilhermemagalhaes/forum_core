@@ -27,7 +27,7 @@ namespace forum.core.presentation.Controllers
             postService.Delete(postId);
         }
 
-        [HttpGet]
+        [HttpGet("{postId}")]
         public Post GetById(int postId)
         {
             return postService.GetById(postId);

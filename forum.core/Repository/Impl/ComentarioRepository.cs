@@ -18,10 +18,23 @@ namespace forum.core.Repository.Impl
             _forumContext = context;
         }
 
-        public void AddOrUpdate(Comentario comentario)
+        public int InsertOrUpdate(Comentario comentario)
         {
-            _forumContext.Add(comentario);
+            var _comentario = _forumContext.Comentario.FirstOrDefault(x => x.ComentarioId == comentario.ComentarioId);
+
+            if (_comentario == null)
+                _comentario = new Comentario();
+
+
+            _comentario.Autor = comentario.Autor;
+            _comentario.Texto = comentario.Texto;
+            _comentario.PostId = comentario.PostId;
+            _comentario.DataCadastro = comentario.DataCadastro;
+            
+            _forumContext.Add(_comentario);
             _forumContext.SaveChanges();
+
+            return _comentario.ComentarioId;
         }
 
         public void Delete(int id)

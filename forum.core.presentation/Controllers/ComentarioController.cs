@@ -27,9 +27,9 @@ namespace forum.core.presentation.Controllers
         }
 
         [HttpPost]
-        public void Post(Comentario comentario)
+        public int Post(Comentario comentario)
         {
-            _comentarioService.AddOrUpdate(comentario);
+            return _comentarioService.InsertOrUpdate(comentario);
         }
 
         [HttpDelete]

@@ -7,7 +7,7 @@ namespace forum.core.Service.Contract
 {
     public interface IComentarioService
     {
-        void AddOrUpdate(Comentario comentario);
+        int InsertOrUpdate(Comentario comentario);
 
         void Delete(int id);
 

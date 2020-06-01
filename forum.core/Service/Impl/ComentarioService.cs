@@ -17,9 +17,9 @@ namespace forum.core.Service.Impl
             _comentarioRepository = comentarioRepository;
         }
 
-        public void AddOrUpdate(Comentario comentario)
+        public int InsertOrUpdate(Comentario comentario)
         {
-            _comentarioRepository.AddOrUpdate(comentario);
+            return _comentarioRepository.InsertOrUpdate(comentario);
         }
 
         public void Delete(int id)

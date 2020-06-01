@@ -7,7 +7,7 @@ namespace forum.core.Repository.Contract
 {
     public interface IComentarioRepository
     {
-        void AddOrUpdate(Comentario comentario);
+        int InsertOrUpdate(Comentario comentario);
 
         void Delete(int id);
 
